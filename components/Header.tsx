@@ -6,9 +6,17 @@ const Header: React.FC = () => {
         <header className="bg-white shadow-md sticky top-0 z-50 backdrop-blur-sm bg-white/80">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
-                    <div className="flex-shrink-0">
-                        <span className="text-3xl font-bold text-[#e60000]">vi</span>
-                        <span className="text-xl font-semibold text-gray-700 align-middle ml-2"> Mini Store</span>
+                    <div className="flex items-center">
+                        <div className="flex-shrink-0">
+                            <span className="text-3xl font-bold text-[#e60000]">vi</span>
+                            <span className="text-xl font-semibold text-gray-700 align-middle ml-2"> Mini Store</span>
+                        </div>
+                         <nav className="hidden lg:flex items-center space-x-6 ml-10">
+                            <a href="#plans" className="text-gray-600 hover:text-[#e60000] font-medium transition-colors">Plans</a>
+                            <a href="#calculator" className="text-gray-600 hover:text-[#e60000] font-medium transition-colors">Savings Calculator</a>
+                            <a href="#how-it-works" className="text-gray-600 hover:text-[#e60000] font-medium transition-colors">How It Works</a>
+                            <a href="#contact" className="text-gray-600 hover:text-[#e60000] font-medium transition-colors">Contact</a>
+                        </nav>
                     </div>
                     <div className="flex items-center">
                         <a 

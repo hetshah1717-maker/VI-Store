@@ -8,6 +8,7 @@ import Location from './components/Location';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import Offers from './components/Offers';
+import SavingsCalculator from './components/SavingsCalculator';
 
 const App: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
             <main>
                 <Hero />
                 <Plans />
+                <SavingsCalculator />
                 <Offers />
                 <HowItWorks />
                 <Testimonials />
